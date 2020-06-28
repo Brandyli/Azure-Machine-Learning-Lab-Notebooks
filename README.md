@@ -1,16 +1,16 @@
-# Azure-Machine-Learning-Lab-Notebooks
+## Azure-Machine-Learning-Lab-Notebooks
 
-## Getting Started with Azure Machine Learning
+### Getting Started with Azure Machine Learning
 In this exercise, you will create the Azure Machine Learning workspace and a compute instance, and clone the lab files to your workspace. You'll then run a simple Python experiment in your workspace.
 
-## Before You Start
+### Before You Start
 Azure Machine Learning (Azure ML) is a Microsoft Azure-based service for running data science and machine learning workloads at scale in the cloud. To use Azure Machine Learning, you will need an Azure subscription. If you do not already have one, you can sign up for a free trial at https://azure.microsoft.com.
 
-## Create an Azure Machine Learning Workspace
+### Create an Azure Machine Learning Workspace
 Sign into the Azure portal and create a new resource - search for "machine learning" and select Machine Learning. Specify a unique workspace name, create a new resource group in the region nearest to your location, and select the Enterprise workspace edition.
 <img width="1435" alt="Screen Shot 2020-05-27 at 6 48 10 PM" src="https://user-images.githubusercontent.com/46945617/83079832-b4d36b80-a04a-11ea-9838-c458a5749679.png">
 
-## Create a Compute Instance
+### Create a Compute Instance
 1. You can perform many machine learning tasks in the Studio interface, but it's also important to be able to script configuration tasks and data experiments to make them easier to repeat and automate. Compute Instances provide a virtual machine that you can use as a hosted development workstation to do this.
 
 2. In the Azure Machine Learning studio web interface for your workspace, view the Compute page. This is where you'll manage all the compute targets for your data science activities.
